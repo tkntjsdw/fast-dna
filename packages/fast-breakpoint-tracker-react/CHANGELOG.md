@@ -1,18 +1,18 @@
-# Change log
+# Change Log
 
 All notable changes to this project will be documented in this file.
-See [conventional commits](https://conventionalcommits.org) for commit guidelines.
-
-<a name="1.2.1"></a>
-# [1.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-breakpoint-tracker-react@1.2.0...@microsoft/fast-breakpoint-tracker-react@1.2.1) (2018-11-07)
-
-**Note:** version bump only for package @microsoft/fast-breakpoint-tracker-react
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 
+## [1.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-breakpoint-tracker-react@1.2.0...@microsoft/fast-breakpoint-tracker-react@1.2.1) (2018-11-07)
+
+**Note:** Version bump only for package @microsoft/fast-breakpoint-tracker-react
 
 
-<a name="1.2.0"></a>
-# [1.2.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-breakpoint-tracker-react@1.1.0...@microsoft/fast-breakpoint-tracker-react@1.2.0) (2018-11-05)
+
+
+
+## [1.2.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-breakpoint-tracker-react@1.1.0...@microsoft/fast-breakpoint-tracker-react@1.2.0) (2018-11-05)
 
 
 ### Features
@@ -23,8 +23,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.1.0"></a>
-# 1.1.0 (2018-10-27)
+
+## 1.1.0 (2018-10-27)
 
 
 ### Features

@@ -1,10 +1,10 @@
-# Change log
+# Change Log
 
 All notable changes to this project will be documented in this file.
-See [conventional commits](https://conventionalcommits.org) for commit guidelines.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-<a name="3.4.1"></a>
-# [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@3.4.0...@microsoft/fast-components-styles-msft@3.4.1) (2018-12-21)
+
+## [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@3.4.0...@microsoft/fast-components-styles-msft@3.4.1) (2018-12-21)
 
 
 ### Bug fixes
@@ -18,26 +18,26 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.2"></a>
-# [2.3.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.1...@microsoft/fast-components-styles-msft@2.3.2) (2018-09-24)
 
-**Note:** version bump only for package @microsoft/fast-components-styles-msft
+## [2.3.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.1...@microsoft/fast-components-styles-msft@2.3.2) (2018-09-24)
 
-
-
-
-
-<a name="2.3.1"></a>
-# [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.0...@microsoft/fast-components-styles-msft@2.3.1) (2018-09-21)
-
-**Note:** version bump only for package @microsoft/fast-components-styles-msft
+**Note:** Version bump only for package @microsoft/fast-components-styles-msft
 
 
 
 
 
-<a name="2.3.0"></a>
-# [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.2.0...@microsoft/fast-components-styles-msft@2.3.0) (2018-09-19)
+
+## [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.0...@microsoft/fast-components-styles-msft@2.3.1) (2018-09-21)
+
+**Note:** Version bump only for package @microsoft/fast-components-styles-msft
+
+
+
+
+
+
+## [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.2.0...@microsoft/fast-components-styles-msft@2.3.0) (2018-09-19)
 
 
 ### Features
@@ -49,8 +49,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.2.0"></a>
-# 2.2.0 (2018-09-11)
+
+## 2.2.0 (2018-09-11)
 
 
 ### Features
@@ -64,8 +64,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# 2.1.0 (2018-08-29)
+
+## 2.1.0 (2018-08-29)
 
 
 ### Features
@@ -77,8 +77,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0-corrected"></a>
-# 2.0.0-corrected (2018-08-03)
+
+## 2.0.0-corrected (2018-08-03)
 
 
 ### Bug fixes
@@ -126,8 +126,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
+
+## [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
 ### Features
@@ -141,8 +141,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0"></a>
-# [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
+
+## [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
 ### Bug fixes
@@ -169,8 +169,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.9.0"></a>
-# [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
+
+## [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
 ### Bug fixes
@@ -194,8 +194,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.8.0"></a>
-# [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
+
+## [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
 
 
 ### Bug fixes
@@ -211,8 +211,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.7.0"></a>
-# [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
+
+## [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
 
 
 ### Bug fixes
@@ -227,30 +227,14 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.6.0"></a>
-# [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
+
+## [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
 
 
 
 
-<a name="1.5.0"></a>
-# [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
-
-### Bug fixes
-
-* **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
-
-
-### Features
-
-* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
-
-
-
-
-<a name="1.4.0"></a>
-# [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
+## [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
 ### Bug fixes
@@ -265,8 +249,24 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.3.0"></a>
-# [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
+
+## [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
+
+
+### Bug fixes
+
+* **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
+
+
+### Features
+
+* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
+
+
+
+
+
+## [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
 
 
 ### Bug fixes
@@ -276,8 +276,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.2.0"></a>
-# 1.2.0 (2018-05-10)
+
+## 1.2.0 (2018-05-10)
 
 
 ### Features
@@ -287,8 +287,8 @@ See [conventional commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.1.0"></a>
-# 1.1.0 (2018-05-09)
+
+## 1.1.0 (2018-05-09)
 
 
 ### Bug fixes
