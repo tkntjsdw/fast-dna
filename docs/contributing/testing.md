@@ -4,12 +4,6 @@ title: Contributing
 sidebar_label: Testing
 ---
 
----
-id: testing
-title: Contributing
-sidebar_label: Testing
----
-
 # Testing
 
 ## Checklist
