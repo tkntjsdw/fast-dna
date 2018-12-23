@@ -29,8 +29,8 @@ As subject matter experts, *code owners* approve pull requests on the packages t
 ### Nominations & apointments
 * To become a *contributor*, a community member must have a pull request approved and mergred into the FAST-DNA project master branch. 
 * To become a *collaborator*, a *contributor* will petition the *steering committee* who will approve or deny the request.
-* To become a *code owner*, a *collaborator* will be (a) nominated by a *steering committe* member or (b) petition the *steering committee* who will approve or deny the request.
-* To join the *steering committee*, a *collaborator* will be nominated by a *steering committe* member and the *steering committee* who will approve or deny the request.
+* To become a *code owner*, a *collaborator* will be (a) nominated by a *steering committee* member or (b) petition the *steering committee* who will approve or deny the request.
+* To join the *steering committee*, a *collaborator* will be nominated by a *steering committee* member and the *steering committee* who will approve or deny the request.
 
 ## Acceptance and consensus seeking process
 Acceptance of contributions follows the consensus-seeking process.
