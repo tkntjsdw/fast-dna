@@ -6,7 +6,7 @@ Many contributions require you to agree to a Contributor License Agreement (CLA)
 When you submit a pull request, a CLA-bot automatically determines if you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Follow the instructions provided by the bot. You only need to do this once across all repositories using our CLA.
 
 ## Guiding principle
-Owners, the steering committee, collaborators, code owners and contributors work in concert with one another on behalf of the FAST-DNA community and prioritize the communities interests over their own.
+Owners, the steering committee, collaborators, code owners, and contributors work in concert with one another on behalf of the FAST-DNA community and prioritize the communities interests over their own.
 
 The development, release, and work management processes must reflect this principle. Accepting contributions to the project requires a review by collaborators. 
 
