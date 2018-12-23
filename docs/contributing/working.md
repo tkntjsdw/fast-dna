@@ -84,7 +84,7 @@ To clean all packages.
 lerna clean
 ```
 
-When package files change the symbolic links require updating.
+Install remote dependencies, build, and symlink local dependencies.
 
 ```bash
 lerna bootstrap
