@@ -37,7 +37,7 @@ FAST UI development tools offer a solution for manually testing components durin
 
 Additionally, we offer testing services under `./build/testing` that can be used to assist in comprehensive testing. We have included these configurations and tests as a starting point. Run the tests manually, and the cloud services dashboard can be used to evaluate your code changes before submitting for code review.
 
-If your interested in using these services contact the project maintainers on [discord](https://discord.gg/FcSNfg4) to gain access.
+If you're interested in using these services contact the project maintainers on [discord](https://discord.gg/FcSNfg4) to gain access.
 
 ### Testing on physical devices
 When testing local code on physical devices, Localtunnel allows you to easily share a web service on your local machine without managing DNS and firewall settings.
