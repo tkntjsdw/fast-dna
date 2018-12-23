@@ -16,7 +16,7 @@ Our contributors use these standards for consistency and quality in the reposito
 
 ## Accessibility
 
-Acknowledge accessibility from the start of each new feature in collaboration with the legal and accessibility. As a system for the building of websites and applications, we ensure you have the tools to create accessible user experiences.
+Accessibility is acknowledged from the start of each new feature in collaboration with the legal and accessibility teams. As a system for the building of websites and applications, we ensure you have the tools to create accessible user experiences.
 
 ### Animation
 
