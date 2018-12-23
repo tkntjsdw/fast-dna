@@ -1,10 +1,8 @@
 ---
 id: install
-title: Contributing
+title: Install
 sidebar_label: Install
 ---
-
-# Install
 
 ## Setup the source repository
 Clone the repository, `cd` into the project, install [Lerna](https://github.com/lerna/lerna) and install dependencies.

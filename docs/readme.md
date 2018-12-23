@@ -1,10 +1,9 @@
 ---
 id: readme
-title: Welcome to FAST-DNA
+title: FAST-DNA
 sidebar_label: What is FAST-DNA
 ---
 
-# FAST-DNA
 An unopinionated system of components, development tools, and utilities used à la carte or as a suite to build enterprise-grade websites and applications.
 
 ## Key features & benefits

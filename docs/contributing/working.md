@@ -1,10 +1,8 @@
 ---
 id: working
-title: Contributing
+title: Working
 sidebar_label: Working
 ---
-
-# Working
 
 ## Managing Issues
 

@@ -1,10 +1,8 @@
 ---
 id: standards
-title: Contributing
+title: Standards
 sidebar_label: Standards
 ---
-
-# Standards
 
 Our contributors use these standards for consistency and quality in the repository.
 
