@@ -1,16 +1,17 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-foundation-react@2.1.0...@microsoft/fast-components-foundation-react@2.1.1) (2018-11-07)
+<a name="2.1.1"></a>
+# [2.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-foundation-react@2.1.0...@microsoft/fast-components-foundation-react@2.1.1) (2018-11-07)
 
-**Note:** Version bump only for package @microsoft/fast-components-foundation-react
-
-
-
+**Note:** version bump only for package @microsoft/fast-components-foundation-react
 
 
+
+
+<a name="2.1.0"></a>
 # [2.1.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-foundation-react@2.0.1...@microsoft/fast-components-foundation-react@2.1.0) (2018-11-05)
 
 
@@ -21,28 +22,28 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+<a name="2.0.1"></a>
+# [2.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-foundation-react@2.0.0...@microsoft/fast-components-foundation-react@2.0.1) (2018-10-27)
 
-## [2.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-foundation-react@2.0.0...@microsoft/fast-components-foundation-react@2.0.1) (2018-10-27)
-
-**Note:** Version bump only for package @microsoft/fast-components-foundation-react
-
-
+**Note:** version bump only for package @microsoft/fast-components-foundation-react
 
 
 
+
+<a name="2.0.0"></a>
 # 2.0.0 (2018-10-06)
 
 
-### Bug Fixes
+### Bug fixes
 
 * move foundation component into a new package and implement it in component and layout libraries ([#979](https://github.com/Microsoft/fast-dna/issues/979)) ([acae283](https://github.com/Microsoft/fast-dna/commit/acae283))
 
 
-### chore
+### Chore
 
 * remove the 'I' from interfaces ([#997](https://github.com/Microsoft/fast-dna/issues/997)) ([d924df8](https://github.com/Microsoft/fast-dna/commit/d924df8))
 
 
 ### BREAKING CHANGES
 
-* Interfaces have been renamed to remove the "I".
+* Interfaces have been renamed to remove the "I"

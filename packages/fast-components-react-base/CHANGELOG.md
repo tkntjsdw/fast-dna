@@ -1,13 +1,13 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="3.4.1"></a>
-## [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@3.4.0...@microsoft/fast-components-react-base@3.4.1) (2018-12-21)
+# [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@3.4.0...@microsoft/fast-components-react-base@3.4.1) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * handle context menu item keydown and click events ([#1201](https://github.com/Microsoft/fast-dna/issues/1201)) ([2bf858b](https://github.com/Microsoft/fast-dna/commit/2bf858b))
 * style cleanup and consolidation ([#1198](https://github.com/Microsoft/fast-dna/issues/1198)) ([4151f39](https://github.com/Microsoft/fast-dna/commit/4151f39))
@@ -18,9 +18,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="3.1.1"></a>
-## [3.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@3.1.0...@microsoft/fast-components-react-base@3.1.1) (2018-10-27)
+# [3.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@3.1.0...@microsoft/fast-components-react-base@3.1.1) (2018-10-27)
 
-**Note:** Version bump only for package @microsoft/fast-components-react-base
+**Note:** version bump only for package @microsoft/fast-components-react-base
 
 
 
@@ -39,19 +39,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="2.3.2"></a>
-## [2.3.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@2.3.1...@microsoft/fast-components-react-base@2.3.2) (2018-09-21)
+# [2.3.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@2.3.1...@microsoft/fast-components-react-base@2.3.2) (2018-09-21)
 
-**Note:** Version bump only for package @microsoft/fast-components-react-base
+**Note:** version bump only for package @microsoft/fast-components-react-base
 
 
 
 
 
 <a name="2.3.1"></a>
-## [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@2.3.0...@microsoft/fast-components-react-base@2.3.1) (2018-09-19)
+# [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@2.3.0...@microsoft/fast-components-react-base@2.3.1) (2018-09-19)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-base:** tab component expects incorrect peer dependency version ([#925](https://github.com/Microsoft/fast-dna/issues/925)) ([d35d3f3](https://github.com/Microsoft/fast-dna/commit/d35d3f3))
 * **tab:** tab should render as a div instead of a button element ([#889](https://github.com/Microsoft/fast-dna/issues/889)) ([9ab590c](https://github.com/Microsoft/fast-dna/commit/9ab590c))
@@ -64,7 +64,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-base@2.2.0...@microsoft/fast-components-react-base@2.3.0) (2018-09-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **progress:** enusure progress component, and correct typings are exported from MSFT package ([#882](https://github.com/Microsoft/fast-dna/issues/882)) ([adfdbf7](https://github.com/Microsoft/fast-dna/commit/adfdbf7))
 
@@ -94,7 +94,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.1.0 (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-base:** allow horizontal overflow to accept passed class names ([#783](https://github.com/Microsoft/fast-dna/issues/783)) ([40ae7a9](https://github.com/Microsoft/fast-dna/commit/40ae7a9))
 * **hyperlink:** correctly handle href as a handled prop and update documentation ([#769](https://github.com/Microsoft/fast-dna/issues/769)) ([bc771b5](https://github.com/Microsoft/fast-dna/commit/bc771b5))
@@ -116,7 +116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **button:** fixes an issue where href was not being passed as part of the created anchor element ([#411](https://github.com/Microsoft/fast-dna/issues/411)) ([35928e1](https://github.com/Microsoft/fast-dna/commit/35928e1))
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
@@ -172,7 +172,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-base:** allow horizontal overflow to accept passed class names ([#783](https://github.com/Microsoft/fast-dna/issues/783)) ([40ae7a9](https://github.com/Microsoft/fast-dna/commit/40ae7a9))
 * **hyperlink:** correctly handle href as a handled prop and update documentation ([#769](https://github.com/Microsoft/fast-dna/issues/769)) ([bc771b5](https://github.com/Microsoft/fast-dna/commit/bc771b5))
@@ -196,7 +196,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -227,7 +227,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -278,7 +278,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **button:** fixes an issue where href was not being passed as part of the created anchor element ([#411](https://github.com/Microsoft/fast-dna/issues/411)) ([35928e1](https://github.com/Microsoft/fast-dna/commit/35928e1))
 
@@ -294,7 +294,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **button:** fixes an issue where href was not being passed as part of the created anchor element ([#411](https://github.com/Microsoft/fast-dna/issues/411)) ([35928e1](https://github.com/Microsoft/fast-dna/commit/35928e1))
 
@@ -310,7 +310,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **button:** fixes an issue where href was not being passed as part of the created anchor element ([#411](https://github.com/Microsoft/fast-dna/issues/411)) ([35928e1](https://github.com/Microsoft/fast-dna/commit/35928e1))
 
@@ -329,7 +329,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * **naming:** fix component names to align to repo standard ([#202](https://github.com/Microsoft/fast-dna/issues/202)) ([298836e](https://github.com/Microsoft/fast-dna/commit/298836e))

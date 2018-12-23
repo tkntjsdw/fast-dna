@@ -1,13 +1,13 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@3.2.6...@microsoft/fast-form-generator-react@3.3.0) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * check for undefined rather than a falsey value when setting soft remove ([#1213](https://github.com/Microsoft/fast-dna/issues/1213)) ([b2abaef](https://github.com/Microsoft/fast-dna/commit/b2abaef))
 
@@ -22,27 +22,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="2.2.3"></a>
-## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.2...@microsoft/fast-form-generator-react@2.2.3) (2018-09-24)
+# [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.2...@microsoft/fast-form-generator-react@2.2.3) (2018-09-24)
 
-**Note:** Version bump only for package @microsoft/fast-form-generator-react
+**Note:** version bump only for package @microsoft/fast-form-generator-react
 
 
 
 
 
 <a name="2.2.2"></a>
-## [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.1...@microsoft/fast-form-generator-react@2.2.2) (2018-09-21)
+# [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.1...@microsoft/fast-form-generator-react@2.2.2) (2018-09-21)
 
-**Note:** Version bump only for package @microsoft/fast-form-generator-react
+**Note:** version bump only for package @microsoft/fast-form-generator-react
 
 
 
 
 
 <a name="2.2.1"></a>
-## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.0...@microsoft/fast-form-generator-react@2.2.1) (2018-09-19)
+# [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-form-generator-react@2.2.0...@microsoft/fast-form-generator-react@2.2.1) (2018-09-19)
 
-**Note:** Version bump only for package @microsoft/fast-form-generator-react
+**Note:** version bump only for package @microsoft/fast-form-generator-react
 
 
 
@@ -62,7 +62,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.1.0 (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-form-generator-react:** fix form item select to return the correct value based on type ([#800](https://github.com/Microsoft/fast-dna/issues/800)) ([e16742b](https://github.com/Microsoft/fast-dna/commit/e16742b))
 
@@ -82,7 +82,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -120,7 +120,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-form-generator-react:** fix form item select to return the correct value based on type ([#800](https://github.com/Microsoft/fast-dna/issues/800)) ([e16742b](https://github.com/Microsoft/fast-dna/commit/e16742b))
 
@@ -142,7 +142,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -169,7 +169,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -217,7 +217,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **form generator:** fixes drag and drop, updates styles and shape ([#426](https://github.com/Microsoft/fast-dna/issues/426)) ([b5013a8](https://github.com/Microsoft/fast-dna/commit/b5013a8))
 * **svg:** fix some malformed SVG icons ([#434](https://github.com/Microsoft/fast-dna/issues/434)) ([002dbd4](https://github.com/Microsoft/fast-dna/commit/002dbd4))
@@ -229,7 +229,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **form generator:** fixes drag and drop, updates styles and shape ([#426](https://github.com/Microsoft/fast-dna/issues/426)) ([b5013a8](https://github.com/Microsoft/fast-dna/commit/b5013a8))
 

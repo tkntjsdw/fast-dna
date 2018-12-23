@@ -1,13 +1,13 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="3.1.8"></a>
-## [3.1.8](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@3.1.7...@microsoft/fast-layouts-react@3.1.8) (2018-12-21)
+# [3.1.8](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@3.1.7...@microsoft/fast-layouts-react@3.1.8) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * add comma so style deceleration is correct and add default columnCount ([#1200](https://github.com/Microsoft/fast-dna/issues/1200)) ([7b78937](https://github.com/Microsoft/fast-dna/commit/7b78937))
 
@@ -16,27 +16,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="2.2.3"></a>
-## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.2...@microsoft/fast-layouts-react@2.2.3) (2018-09-24)
+# [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.2...@microsoft/fast-layouts-react@2.2.3) (2018-09-24)
 
-**Note:** Version bump only for package @microsoft/fast-layouts-react
+**Note:** version bump only for package @microsoft/fast-layouts-react
 
 
 
 
 
 <a name="2.2.2"></a>
-## [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.1...@microsoft/fast-layouts-react@2.2.2) (2018-09-21)
+# [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.1...@microsoft/fast-layouts-react@2.2.2) (2018-09-21)
 
-**Note:** Version bump only for package @microsoft/fast-layouts-react
+**Note:** version bump only for package @microsoft/fast-layouts-react
 
 
 
 
 
 <a name="2.2.1"></a>
-## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.0...@microsoft/fast-layouts-react@2.2.1) (2018-09-19)
+# [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-layouts-react@2.2.0...@microsoft/fast-layouts-react@2.2.1) (2018-09-19)
 
-**Note:** Version bump only for package @microsoft/fast-layouts-react
+**Note:** version bump only for package @microsoft/fast-layouts-react
 
 
 
@@ -46,7 +46,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.2.0 (2018-09-11)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **page:** replaces auto with 0 to fix a cross browser compatability issue with css grid ([#860](https://github.com/Microsoft/fast-dna/issues/860)) ([418a303](https://github.com/Microsoft/fast-dna/commit/418a303))
 
@@ -74,7 +74,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **fast-layouts-react:** fix export issue to allow Column, Grid, and Page components to be imported from the root level of the package ([#554](https://github.com/Microsoft/fast-dna/issues/554)) ([83c08b2](https://github.com/Microsoft/fast-dna/commit/83c08b2))
@@ -111,7 +111,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **fast-layouts-react:** fix export issue to allow Column, Grid, and Page components to be imported from the root level of the package ([#554](https://github.com/Microsoft/fast-dna/issues/554)) ([83c08b2](https://github.com/Microsoft/fast-dna/commit/83c08b2))
@@ -132,7 +132,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **fast-layouts-react:** fix export issue to allow Column, Grid, and Page components to be imported from the root level of the package ([#554](https://github.com/Microsoft/fast-dna/issues/554)) ([83c08b2](https://github.com/Microsoft/fast-dna/commit/83c08b2))

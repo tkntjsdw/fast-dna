@@ -1,57 +1,57 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [Conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="3.0.12"></a>
-## [3.0.12](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@3.0.11...@microsoft/fast-markdown-msft-react@3.0.12) (2018-12-21)
+# [3.0.12](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@3.0.11...@microsoft/fast-markdown-msft-react@3.0.12) (2018-12-21)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
 
 
 <a name="3.0.3"></a>
-## [3.0.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@3.0.2...@microsoft/fast-markdown-msft-react@3.0.3) (2018-10-27)
+# [3.0.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@3.0.2...@microsoft/fast-markdown-msft-react@3.0.3) (2018-10-27)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
 
 
 <a name="2.2.4"></a>
-## [2.2.4](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.3...@microsoft/fast-markdown-msft-react@2.2.4) (2018-09-24)
+# [2.2.4](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.3...@microsoft/fast-markdown-msft-react@2.2.4) (2018-09-24)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
 
 
 <a name="2.2.3"></a>
-## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.2...@microsoft/fast-markdown-msft-react@2.2.3) (2018-09-21)
+# [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.2...@microsoft/fast-markdown-msft-react@2.2.3) (2018-09-21)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
 
 
 <a name="2.2.2"></a>
-## [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.1...@microsoft/fast-markdown-msft-react@2.2.2) (2018-09-19)
+# [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.1...@microsoft/fast-markdown-msft-react@2.2.2) (2018-09-19)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
 
 
 <a name="2.2.1"></a>
-## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.0...@microsoft/fast-markdown-msft-react@2.2.1) (2018-09-14)
+# [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-markdown-msft-react@2.2.0...@microsoft/fast-markdown-msft-react@2.2.1) (2018-09-14)
 
-**Note:** Version bump only for package @microsoft/fast-markdown-msft-react
+**Note:** version bump only for package @microsoft/fast-markdown-msft-react
 
 
 
@@ -84,7 +84,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **dev-site:** add design system provider to component example factory ([#359](https://github.com/Microsoft/fast-dna/issues/359)) ([7f01fd5](https://github.com/Microsoft/fast-dna/commit/7f01fd5))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -121,7 +121,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 
@@ -138,7 +138,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 
@@ -204,7 +204,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **dev-site:** add design system provider to component example factory ([#359](https://github.com/Microsoft/fast-dna/issues/359)) ([7f01fd5](https://github.com/Microsoft/fast-dna/commit/7f01fd5))
 

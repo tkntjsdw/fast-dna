@@ -1,27 +1,28 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-tslint-rules@3.0.0...@microsoft/fast-tslint-rules@3.0.1) (2018-11-05)
+<a name="3.0.1"></a>
+# [3.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-tslint-rules@3.0.0...@microsoft/fast-tslint-rules@3.0.1) (2018-11-05)
 
-**Note:** Version bump only for package @microsoft/fast-tslint-rules
-
-
-
+**Note:** version bump only for package @microsoft/fast-tslint-rules
 
 
+
+
+<a name="3.0.0"></a>
 # [3.0.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-tslint-rules@2.2.0...@microsoft/fast-tslint-rules@3.0.0) (2018-10-06)
 
 
-### chore
+### Chore
 
 * remove the 'I' from interfaces ([#997](https://github.com/Microsoft/fast-dna/issues/997)) ([d924df8](https://github.com/Microsoft/fast-dna/commit/d924df8))
 
 
 ### BREAKING CHANGES
 
-* Interfaces have been renamed to remove the "I".
+* interfaces have been renamed to remove the "I"
 
 
 
@@ -54,7 +55,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * fix tslint globbing issue and enforce whitespace in import/export statements ([#219](https://github.com/Microsoft/fast-dna/issues/219)) ([4637a90](https://github.com/Microsoft/fast-dna/commit/4637a90))
@@ -99,7 +100,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 
@@ -116,7 +117,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 
@@ -182,7 +183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **tslint:** fix tslint errors ([#114](https://github.com/Microsoft/fast-dna/issues/114)) ([78fea3e](https://github.com/Microsoft/fast-dna/commit/78fea3e))
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))

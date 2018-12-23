@@ -1,27 +1,28 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.2...@microsoft/fast-permutator@2.2.3) (2018-11-07)
+<a name="2.2.3"></a>
+# [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.2...@microsoft/fast-permutator@2.2.3) (2018-11-07)
 
-**Note:** Version bump only for package @microsoft/fast-permutator
-
-
-
-
-
-## [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.1...@microsoft/fast-permutator@2.2.2) (2018-11-05)
-
-**Note:** Version bump only for package @microsoft/fast-permutator
+**Note:** version bump only for package @microsoft/fast-permutator
 
 
 
 
+<a name="2.2.2"></a>
+# [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.1...@microsoft/fast-permutator@2.2.2) (2018-11-05)
 
-## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.0...@microsoft/fast-permutator@2.2.1) (2018-10-27)
+**Note:** version bump only for package @microsoft/fast-permutator
 
-**Note:** Version bump only for package @microsoft/fast-permutator
+
+
+
+<a name="2.2.1"></a>
+# [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.0...@microsoft/fast-permutator@2.2.1) (2018-10-27)
+
+**Note:** version bump only for package @microsoft/fast-permutator
 
 
 
@@ -53,7 +54,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * travis-CI build-break ([#336](https://github.com/Microsoft/fast-dna/issues/336)) ([bffbf5e](https://github.com/Microsoft/fast-dna/commit/bffbf5e))
@@ -100,7 +101,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
@@ -119,7 +120,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
@@ -138,7 +139,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
 
@@ -197,7 +198,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * **permutator:** fix duplicate code for handling required and optional data ([#323](https://github.com/Microsoft/fast-dna/issues/323)) ([e5817dc](https://github.com/Microsoft/fast-dna/commit/e5817dc))

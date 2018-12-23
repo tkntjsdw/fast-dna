@@ -1,48 +1,48 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="4.1.2"></a>
-## [4.1.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@4.1.1...@microsoft/fast-css-editor-react@4.1.2) (2018-12-21)
+# [4.1.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@4.1.1...@microsoft/fast-css-editor-react@4.1.2) (2018-12-21)
 
-**Note:** Version bump only for package @microsoft/fast-css-editor-react
+**Note:** version bump only for package @microsoft/fast-css-editor-react
 
 
 
 
 
 <a name="3.0.3"></a>
-## [3.0.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@3.0.2...@microsoft/fast-css-editor-react@3.0.3) (2018-10-27)
+# [3.0.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@3.0.2...@microsoft/fast-css-editor-react@3.0.3) (2018-10-27)
 
-**Note:** Version bump only for package @microsoft/fast-css-editor-react
+**Note:** version bump only for package @microsoft/fast-css-editor-react
 
 
 
 
 
 <a name="2.2.3"></a>
-## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.2...@microsoft/fast-css-editor-react@2.2.3) (2018-09-24)
+# [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.2...@microsoft/fast-css-editor-react@2.2.3) (2018-09-24)
 
-**Note:** Version bump only for package @microsoft/fast-css-editor-react
+**Note:** version bump only for package @microsoft/fast-css-editor-react
 
 
 
 
 
 <a name="2.2.2"></a>
-## [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.1...@microsoft/fast-css-editor-react@2.2.2) (2018-09-21)
+# [2.2.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.1...@microsoft/fast-css-editor-react@2.2.2) (2018-09-21)
 
-**Note:** Version bump only for package @microsoft/fast-css-editor-react
+**Note:** version bump only for package @microsoft/fast-css-editor-react
 
 
 
 
 
 <a name="2.2.1"></a>
-## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.0...@microsoft/fast-css-editor-react@2.2.1) (2018-09-19)
+# [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-css-editor-react@2.2.0...@microsoft/fast-css-editor-react@2.2.1) (2018-09-19)
 
-**Note:** Version bump only for package @microsoft/fast-css-editor-react
+**Note:** version bump only for package @microsoft/fast-css-editor-react
 
 
 

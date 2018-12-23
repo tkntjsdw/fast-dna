@@ -1,16 +1,17 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
-## [3.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@3.1.0...@microsoft/fast-jest-snapshots-react@3.1.1) (2018-11-07)
+<a name="2.3.0"></a>
+# [3.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@3.1.0...@microsoft/fast-jest-snapshots-react@3.1.1) (2018-11-07)
 
-**Note:** Version bump only for package @microsoft/fast-jest-snapshots-react
-
-
-
+**Note:** version bump only for package @microsoft/fast-jest-snapshots-react
 
 
+
+
+<a name="3.1.0"></a>
 # [3.1.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@3.0.1...@microsoft/fast-jest-snapshots-react@3.1.0) (2018-11-05)
 
 
@@ -21,26 +22,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+<a name="3.0.1"></a>
+# [3.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@3.0.0...@microsoft/fast-jest-snapshots-react@3.0.1) (2018-10-27)
 
-## [3.0.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@3.0.0...@microsoft/fast-jest-snapshots-react@3.0.1) (2018-10-27)
-
-**Note:** Version bump only for package @microsoft/fast-jest-snapshots-react
-
-
+**Note:** version bump only for package @microsoft/fast-jest-snapshots-react
 
 
 
+
+<a name="3.0.0"></a>
 # [3.0.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-jest-snapshots-react@2.3.0...@microsoft/fast-jest-snapshots-react@3.0.0) (2018-10-06)
 
 
-### chore
+### Chore
 
 * remove the 'I' from interfaces ([#997](https://github.com/Microsoft/fast-dna/issues/997)) ([d924df8](https://github.com/Microsoft/fast-dna/commit/d924df8))
 
 
 ### BREAKING CHANGES
 
-* Interfaces have been renamed to remove the "I".
+* interfaces have been renamed to remove the "I"
 
 
 

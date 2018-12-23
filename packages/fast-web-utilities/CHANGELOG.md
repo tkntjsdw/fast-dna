@@ -1,13 +1,13 @@
-# Change Log
+# Change log
 
 All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+See [conventional commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="3.0.4"></a>
-## [3.0.4](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-web-utilities@3.0.3...@microsoft/fast-web-utilities@3.0.4) (2018-12-21)
+# [3.0.4](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-web-utilities@3.0.3...@microsoft/fast-web-utilities@3.0.4) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * style cleanup and consolidation ([#1198](https://github.com/Microsoft/fast-dna/issues/1198)) ([4151f39](https://github.com/Microsoft/fast-dna/commit/4151f39))
 
@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 2.1.0 (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-web-utilities:** fix an issue where getClientRectWithMargin threw an error in EDGE and IE strict modes due to readonly properties ([#767](https://github.com/Microsoft/fast-dna/issues/767)) ([d3fa002](https://github.com/Microsoft/fast-dna/commit/d3fa002))
 
@@ -60,7 +60,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-web-utilities:** fix an issue where getClientRectWithMargin threw an error in EDGE and IE strict modes due to readonly properties ([#767](https://github.com/Microsoft/fast-dna/issues/767)) ([d3fa002](https://github.com/Microsoft/fast-dna/commit/d3fa002))
 
