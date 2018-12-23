@@ -26,7 +26,7 @@ Accessibility is acknowledged from the start of each new feature in collaboratio
 
 ## JSS (JavaScript Style Sheets) usage
 
-JSS class names follow a [BEM-like](http://getbem.com/naming/) convention but our implementation of BEM is slightly modified because dashes — the character used to delimit *modifiers* — cannot be used as JavaScript object keys without using string literals; use underscores instead. A single underscore separates an element from a block while two underscores separate a modifier from a block or element.
+JSS class names interfaces follow a [BEM-like](http://getbem.com/naming/) convention but our implementation of BEM is slightly modified because dashes — the character used to delimit *modifiers* — cannot be used as JavaScript object keys without using string literals; use underscores instead. A single underscore separates an element from a block while two underscores separate a modifier from a block or element.
 
 Example:
 
