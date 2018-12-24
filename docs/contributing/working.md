@@ -48,13 +48,34 @@ chore: add unit-tests for all components
 fix: update MSFT design system to use 3px border radius
 ```
 
-### Formatting messages
+### Pull reqest template
 
-Optionally, include more detail in the message.
+In addition to providing a properly formatted title for your pull request, we offer a template that will help guide you toward appropriate best practices and processes as well as provide additional information which will give those reviewing your request the context they need.
 
-`<body>` is used to provide clarity and context to the description.
+``` Markdown
+<!--- Provide a summary of your changes in the title field above. -->
 
-`<footer>` is used to provide additional metadata about the pull request such as issue fixing (fix #19, close #19, resolve #19). Additionally, is used to denote [breaking changes](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification).
+## Description
+<!--- Describe your changes. -->
+
+## Motivation & context
+<!--- What problem does this change solve? -->
+<!--- Provide a link if you are addressing an open issue. -->
+
+## Issue type checklist
+<!--- What type of change are you submitting? Check the boxes that apply: -->
+- [ ] **Bug fix**: non-breaking change which fixes an issue, link to the issue above.
+- [ ] **New feature**: non-breaking change that adds functionality.
+- [ ] **Breaking change**: fix or feature that will cause current functionality to change.
+
+## Process & policy checklist
+<!--- Review the list and check the boxes that apply. -->
+- [ ] I have added tests for my changes.
+- [ ] I have tested my changes.
+- [ ] I have updated the project documentation to reflect my changes.
+- [ ] I have read the CONTRIBUTING documentation and followed the standards set for this project.
+
+```
 
 ### Interim commits
 
@@ -70,7 +91,7 @@ e142fd1 Rebase with master
 ac8326d Fix ts-lint errors
 ```
 
-As a core philosophy, we prefer [rebasing over merging](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+As a core philosophy, we prefer [rebasing over merging](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
 
 ## Common commands
 
