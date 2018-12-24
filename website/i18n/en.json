@@ -6,27 +6,27 @@
     "tagline": "Accelerate building Web sites and applications",
     "docs": {
       "contributing/install": {
-        "title": "Contributing",
+        "title": "Install",
         "sidebar_label": "Install"
       },
       "contributing/policies": {
-        "title": "Contributing",
+        "title": "Policies",
         "sidebar_label": "Policies"
       },
       "contributing/standards": {
-        "title": "Contributing",
+        "title": "Standards",
         "sidebar_label": "Standards"
       },
       "contributing/testing": {
-        "title": "Contributing",
+        "title": "Testing",
         "sidebar_label": "Testing"
       },
       "contributing/working": {
-        "title": "Contributing",
+        "title": "Working",
         "sidebar_label": "Working"
       },
       "readme": {
-        "title": "Welcome to FAST-DNA",
+        "title": "FAST-DNA",
         "sidebar_label": "What is FAST-DNA"
       }
     },

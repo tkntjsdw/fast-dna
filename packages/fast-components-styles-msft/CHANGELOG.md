@@ -3,11 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-<a name="3.4.1"></a>
+
 ## [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@3.4.0...@microsoft/fast-components-styles-msft@3.4.1) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * add missing position value to root node of checkbox ([#1183](https://github.com/Microsoft/fast-dna/issues/1183)) ([b08b269](https://github.com/Microsoft/fast-dna/commit/b08b269))
 * add missing position value to root node of radio ([#1184](https://github.com/Microsoft/fast-dna/issues/1184)) ([6e993b2](https://github.com/Microsoft/fast-dna/commit/6e993b2))
@@ -18,7 +18,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.2"></a>
+
 ## [2.3.2](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.1...@microsoft/fast-components-styles-msft@2.3.2) (2018-09-24)
 
 **Note:** Version bump only for package @microsoft/fast-components-styles-msft
@@ -27,7 +27,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.1"></a>
+
 ## [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.3.0...@microsoft/fast-components-styles-msft@2.3.1) (2018-09-21)
 
 **Note:** Version bump only for package @microsoft/fast-components-styles-msft
@@ -36,8 +36,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.0"></a>
-# [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.2.0...@microsoft/fast-components-styles-msft@2.3.0) (2018-09-19)
+
+## [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-styles-msft@2.2.0...@microsoft/fast-components-styles-msft@2.3.0) (2018-09-19)
 
 
 ### Features
@@ -49,8 +49,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.2.0"></a>
-# 2.2.0 (2018-09-11)
+
+## 2.2.0 (2018-09-11)
 
 
 ### Features
@@ -64,8 +64,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# 2.1.0 (2018-08-29)
+
+## 2.1.0 (2018-08-29)
 
 
 ### Features
@@ -77,11 +77,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0-corrected"></a>
-# 2.0.0-corrected (2018-08-03)
+
+## 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix tslint globbing issue and enforce whitespace in import/export statements ([#219](https://github.com/Microsoft/fast-dna/issues/219)) ([4637a90](https://github.com/Microsoft/fast-dna/commit/4637a90))
 * travis-CI build-break ([#336](https://github.com/Microsoft/fast-dna/issues/336)) ([bffbf5e](https://github.com/Microsoft/fast-dna/commit/bffbf5e))
@@ -100,7 +100,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * add divider component ([#205](https://github.com/Microsoft/fast-dna/issues/205)) ([ae25c38](https://github.com/Microsoft/fast-dna/commit/ae25c38))
 * add hypertext component ([#210](https://github.com/Microsoft/fast-dna/issues/210)) ([9e363ff](https://github.com/Microsoft/fast-dna/commit/9e363ff))
 * add snapshot test suite ([#207](https://github.com/Microsoft/fast-dna/issues/207)) ([7ceaafe](https://github.com/Microsoft/fast-dna/commit/7ceaafe))
-* Forked Class name contracts so we can have one for Base and one for MSFT ([#262](https://github.com/Microsoft/fast-dna/issues/262)) ([a4c54c0](https://github.com/Microsoft/fast-dna/commit/a4c54c0))
+* forked class name contracts so we can have one for Base and one for MSFT ([#262](https://github.com/Microsoft/fast-dna/issues/262)) ([a4c54c0](https://github.com/Microsoft/fast-dna/commit/a4c54c0))
 * update code coverage on travis ([#330](https://github.com/Microsoft/fast-dna/issues/330)) ([63ab4f4](https://github.com/Microsoft/fast-dna/commit/63ab4f4))
 * update utility to include localized spacing and direction ([#308](https://github.com/Microsoft/fast-dna/issues/308)) ([e45ea1a](https://github.com/Microsoft/fast-dna/commit/e45ea1a))
 * **button:** updates to current msft styles ([#314](https://github.com/Microsoft/fast-dna/issues/314)) ([0029e06](https://github.com/Microsoft/fast-dna/commit/0029e06))
@@ -126,8 +126,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
+
+## [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
 ### Features
@@ -141,11 +141,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0"></a>
-# [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
+
+## [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **checkbox:** fix broken indeterminate state UI in Firefox ([#489](https://github.com/Microsoft/fast-dna/issues/489)) ([dd55c0c](https://github.com/Microsoft/fast-dna/commit/dd55c0c))
 * **divider:** remove hard coded color value on divider to support theming ([#675](https://github.com/Microsoft/fast-dna/issues/675)) ([85d07d7](https://github.com/Microsoft/fast-dna/commit/85d07d7))
@@ -169,11 +169,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.9.0"></a>
-# [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
+
+## [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **checkbox:** fix broken indeterminate state UI in Firefox ([#489](https://github.com/Microsoft/fast-dna/issues/489)) ([dd55c0c](https://github.com/Microsoft/fast-dna/commit/dd55c0c))
 * **divider:** remove hard coded color value on divider to support theming ([#675](https://github.com/Microsoft/fast-dna/issues/675)) ([85d07d7](https://github.com/Microsoft/fast-dna/commit/85d07d7))
@@ -194,11 +194,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.8.0"></a>
-# [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
+
+## [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-styles-msft:** remove duplicate code and creates a utility to apply mixed colors ([#500](https://github.com/Microsoft/fast-dna/issues/500)) ([179c584](https://github.com/Microsoft/fast-dna/commit/179c584))
 * **hypertext:** fix hypertext style when no href value exists ([#499](https://github.com/Microsoft/fast-dna/issues/499)) ([cd5d3d2](https://github.com/Microsoft/fast-dna/commit/cd5d3d2))
@@ -211,11 +211,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.7.0"></a>
-# [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
+
+## [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **checkbox:** fix broken indeterminate state UI in Firefox ([#489](https://github.com/Microsoft/fast-dna/issues/489)) ([dd55c0c](https://github.com/Microsoft/fast-dna/commit/dd55c0c))
 
@@ -227,33 +227,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.6.0"></a>
-# [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
+
+## [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
 
 
 
 
-<a name="1.5.0"></a>
-# [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
+
+## [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
-### Bug Fixes
-
-* **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
-
-
-### Features
-
-* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
-
-
-
-
-<a name="1.4.0"></a>
-# [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
-
-
-### Bug Fixes
+### Bug fixes
 
 * **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
 
@@ -265,19 +249,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.3.0"></a>
-# [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
+
+## [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
 
 
-### Bug Fixes
+### Bug fixes
+
+* **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
+
+
+### Features
+
+* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
+
+
+
+
+
+## [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
+
+
+### Bug fixes
 
 * **jss:** fix errors caused by un-linked JSS rules ([#409](https://github.com/Microsoft/fast-dna/issues/409)) ([c9c4a9c](https://github.com/Microsoft/fast-dna/commit/c9c4a9c))
 
 
 
 
-<a name="1.2.0"></a>
-# 1.2.0 (2018-05-10)
+
+## 1.2.0 (2018-05-10)
 
 
 ### Features
@@ -287,11 +287,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.1.0"></a>
-# 1.1.0 (2018-05-09)
+
+## 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix tslint globbing issue and enforce whitespace in import/export statements ([#219](https://github.com/Microsoft/fast-dna/issues/219)) ([4637a90](https://github.com/Microsoft/fast-dna/commit/4637a90))
 * travis-CI build-break ([#336](https://github.com/Microsoft/fast-dna/issues/336)) ([bffbf5e](https://github.com/Microsoft/fast-dna/commit/bffbf5e))

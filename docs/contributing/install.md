@@ -1,13 +1,10 @@
 ---
 id: install
-title: Contributing
+title: Install
 sidebar_label: Install
 ---
 
-# Install
-
 ## Setup the source repository
-
 Clone the repository, `cd` into the project, install [Lerna](https://github.com/lerna/lerna) and install dependencies.
 
 ```shell
@@ -17,7 +14,7 @@ npm i --global lerna@3.3.0
 npm i
 ```
 
-Install all Lerna dependencies:
+Install all Lerna dependencies.
 
 ```shell
 lerna bootstrap
@@ -34,9 +31,7 @@ lerna run test
 ```
 
 ## Understanding packages
-
-All packages can be found [here](https://github.com/Microsoft/fast-dna/tree/master/packages). Each package includes a `README.md` file at the root that describes how the package can be used.
+All packages can be found in the repository [packages](https://github.com/Microsoft/fast-dna/tree/master/packages) folder. Each package includes a `README.md` at its root for documentation.
 
 ## Dependencies
-
-Dependencies are purposely limited to simplify the upgrade cycle. Due to the constantly changing nature of web technologies, it’s imperative to update more frequently with less friction and without customer impact.
+Dependencies are minimized to simplify upgrade cycles and encourage frequent updates with less friction and reduced impact.

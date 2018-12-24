@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
 ## [2.2.3](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-permutator@2.2.2...@microsoft/fast-permutator@2.2.3) (2018-11-07)
 
 **Note:** Version bump only for package @microsoft/fast-permutator
@@ -27,8 +28,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.2.0"></a>
-# 2.2.0 (2018-09-11)
+
+## 2.2.0 (2018-09-11)
 
 
 ### Features
@@ -37,8 +38,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# 2.1.0 (2018-08-29)
+
+## 2.1.0 (2018-08-29)
 
 
 ### Features
@@ -49,11 +50,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0-corrected"></a>
-# 2.0.0-corrected (2018-08-03)
+
+## 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * travis-CI build-break ([#336](https://github.com/Microsoft/fast-dna/issues/336)) ([bffbf5e](https://github.com/Microsoft/fast-dna/commit/bffbf5e))
@@ -82,8 +83,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
+
+## [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
 ### Features
@@ -96,30 +97,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0"></a>
-# [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
+
+## [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
-
-* **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
-* **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
-
-
-### Features
-
-* **detail view:** add detail view ([#470](https://github.com/Microsoft/fast-dna/issues/470)) ([665b871](https://github.com/Microsoft/fast-dna/commit/665b871))
-* **fast-css-editor-react:** add default editor component and position component ([#636](https://github.com/Microsoft/fast-dna/issues/636)) ([72037a8](https://github.com/Microsoft/fast-dna/commit/72037a8))
-* **jss-manager:** update to enable server-side rendering of stylesheets. ([#516](https://github.com/Microsoft/fast-dna/issues/516)) ([a5072d0](https://github.com/Microsoft/fast-dna/commit/a5072d0))
-
-
-
-
-<a name="1.9.0"></a>
-# [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
-
-
-### Bug Fixes
+### Bug fixes
 
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
@@ -134,11 +116,30 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.8.0"></a>
-# [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
+
+## [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
+
+* **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
+* **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
+
+
+### Features
+
+* **detail view:** add detail view ([#470](https://github.com/Microsoft/fast-dna/issues/470)) ([665b871](https://github.com/Microsoft/fast-dna/commit/665b871))
+* **fast-css-editor-react:** add default editor component and position component ([#636](https://github.com/Microsoft/fast-dna/issues/636)) ([72037a8](https://github.com/Microsoft/fast-dna/commit/72037a8))
+* **jss-manager:** update to enable server-side rendering of stylesheets. ([#516](https://github.com/Microsoft/fast-dna/issues/516)) ([a5072d0](https://github.com/Microsoft/fast-dna/commit/a5072d0))
+
+
+
+
+
+## [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
+
+
+### Bug fixes
 
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
 
@@ -150,8 +151,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.7.0"></a>
-# [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
+
+## [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
 
 
 ### Features
@@ -161,25 +162,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.6.0"></a>
-# [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
+
+## [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
 
 
 
 
-<a name="1.5.0"></a>
-# [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
-
-### Features
-
-* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
-
-
-
-
-<a name="1.4.0"></a>
-# [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
+## [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
 ### Features
@@ -189,15 +179,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.2.0"></a>
-# 1.2.0 (2018-05-10)
+
+## [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
 
 
-<a name="1.1.0"></a>
-# 1.1.0 (2018-05-09)
+### Features
+
+* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
 
 
-### Bug Fixes
+
+
+
+## 1.2.0 (2018-05-10)
+
+
+
+## 1.1.0 (2018-05-09)
+
+
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * **permutator:** fix duplicate code for handling required and optional data ([#323](https://github.com/Microsoft/fast-dna/issues/323)) ([e5817dc](https://github.com/Microsoft/fast-dna/commit/e5817dc))

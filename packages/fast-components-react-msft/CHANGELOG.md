@@ -3,11 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-<a name="3.4.1"></a>
+
 ## [3.4.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@3.4.0...@microsoft/fast-components-react-msft@3.4.1) (2018-12-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * style cleanup and consolidation ([#1198](https://github.com/Microsoft/fast-dna/issues/1198)) ([4151f39](https://github.com/Microsoft/fast-dna/commit/4151f39))
 * update components to handle undefined className ([#1197](https://github.com/Microsoft/fast-dna/issues/1197)) ([2505d24](https://github.com/Microsoft/fast-dna/commit/2505d24))
@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="3.1.1"></a>
+
 ## [3.1.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@3.1.0...@microsoft/fast-components-react-msft@3.1.1) (2018-10-27)
 
 **Note:** Version bump only for package @microsoft/fast-components-react-msft
@@ -25,8 +25,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.4.0"></a>
-# [2.4.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.3.1...@microsoft/fast-components-react-msft@2.4.0) (2018-09-24)
+
+## [2.4.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.3.1...@microsoft/fast-components-react-msft@2.4.0) (2018-09-24)
 
 
 ### Features
@@ -37,11 +37,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.1"></a>
+
 ## [2.3.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.3.0...@microsoft/fast-components-react-msft@2.3.1) (2018-09-21)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **call-to-action:** fix glyph import due to missing package dependency ([#930](https://github.com/Microsoft/fast-dna/issues/930)) ([e987a0a](https://github.com/Microsoft/fast-dna/commit/e987a0a))
 
@@ -49,11 +49,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.3.0"></a>
-# [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.2.1...@microsoft/fast-components-react-msft@2.3.0) (2018-09-19)
+
+## [2.3.0](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.2.1...@microsoft/fast-components-react-msft@2.3.0) (2018-09-19)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **caption:** add missing reference for caption className contract interface ([#899](https://github.com/Microsoft/fast-dna/issues/899)) ([20a6180](https://github.com/Microsoft/fast-dna/commit/20a6180))
 * fix error caused by adding a React ref to a JSSManager instance ([#913](https://github.com/Microsoft/fast-dna/issues/913)) ([ff94432](https://github.com/Microsoft/fast-dna/commit/ff94432))
@@ -67,11 +67,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.2.1"></a>
+
 ## [2.2.1](https://github.com/Microsoft/fast-dna/compare/@microsoft/fast-components-react-msft@2.2.0...@microsoft/fast-components-react-msft@2.2.1) (2018-09-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **button:** add missing super of generateClassNames method when appearance prop is not set ([#880](https://github.com/Microsoft/fast-dna/issues/880)) ([ee2dda8](https://github.com/Microsoft/fast-dna/commit/ee2dda8))
 * **fast-components-react-msft:** fix missing exports from package ([#887](https://github.com/Microsoft/fast-dna/issues/887)) ([ffe5b11](https://github.com/Microsoft/fast-dna/commit/ffe5b11))
@@ -81,8 +81,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.2.0"></a>
-# 2.2.0 (2018-09-11)
+
+## 2.2.0 (2018-09-11)
 
 
 ### Features
@@ -97,11 +97,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# 2.1.0 (2018-08-29)
+
+## 2.1.0 (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **hyperlink:** correctly handle href as a handled prop and update documentation ([#769](https://github.com/Microsoft/fast-dna/issues/769)) ([bc771b5](https://github.com/Microsoft/fast-dna/commit/bc771b5))
 * development builds of fast-components-react-msft should not be minified  ([#813](https://github.com/Microsoft/fast-dna/issues/813)) ([09ff027](https://github.com/Microsoft/fast-dna/commit/09ff027))
@@ -119,11 +119,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0-corrected"></a>
-# 2.0.0-corrected (2018-08-03)
+
+## 2.0.0-corrected (2018-08-03)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **image:** fix incorrect data causing error in srcSet 'w' value ([#422](https://github.com/Microsoft/fast-dna/issues/422)) ([cb8646e](https://github.com/Microsoft/fast-dna/commit/cb8646e))
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
@@ -183,11 +183,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.1.0"></a>
-# [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
+
+## [2.1.0](https://github.com/Microsoft/fast-dna/compare/v2.0.0-corrected...v2.1.0) (2018-08-29)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **hyperlink:** correctly handle href as a handled prop and update documentation ([#769](https://github.com/Microsoft/fast-dna/issues/769)) ([bc771b5](https://github.com/Microsoft/fast-dna/commit/bc771b5))
 * development builds of fast-components-react-msft should not be minified  ([#813](https://github.com/Microsoft/fast-dna/issues/813)) ([09ff027](https://github.com/Microsoft/fast-dna/commit/09ff027))
@@ -207,11 +207,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="2.0.0"></a>
-# [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
+
+## [2.0.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v2.0.0) (2018-08-02)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **button:** update to use enum for button types ([#703](https://github.com/Microsoft/fast-dna/issues/703)) ([a172831](https://github.com/Microsoft/fast-dna/commit/a172831))
@@ -241,11 +241,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.9.0"></a>
-# [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
+
+## [1.9.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.9.0) (2018-07-14)
 
 
-### Bug Fixes
+### Bug fixes
 
 * fix imports after updating types ([#644](https://github.com/Microsoft/fast-dna/issues/644)) ([65ed738](https://github.com/Microsoft/fast-dna/commit/65ed738))
 * **fast-components-react-msft:** fixes error running jest with components that require chroma ([#687](https://github.com/Microsoft/fast-dna/issues/687)) ([140457c](https://github.com/Microsoft/fast-dna/commit/140457c))
@@ -271,11 +271,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.8.0"></a>
-# [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
+
+## [1.8.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.8.0) (2018-06-12)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **hypertext:** fix hypertext style when no href value exists ([#499](https://github.com/Microsoft/fast-dna/issues/499)) ([cd5d3d2](https://github.com/Microsoft/fast-dna/commit/cd5d3d2))
 * **permutator:** fix an issue where lodash was being referred to and not lodash-es ([#509](https://github.com/Microsoft/fast-dna/issues/509)) ([88f4b90](https://github.com/Microsoft/fast-dna/commit/88f4b90))
@@ -290,11 +290,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.7.0"></a>
-# [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
+
+## [1.7.0](https://github.com/Microsoft/fast-dna/compare/v1.6.0...v1.7.0) (2018-06-01)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **image:** fix incorrect data causing error in srcSet 'w' value ([#422](https://github.com/Microsoft/fast-dna/issues/422)) ([cb8646e](https://github.com/Microsoft/fast-dna/commit/cb8646e))
 
@@ -307,33 +307,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.6.0"></a>
-# [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
+
+## [1.6.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.6.0) (2018-05-16)
 
 
 
 
-<a name="1.5.0"></a>
-# [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
+
+## [1.5.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.5.0) (2018-05-16)
 
 
-### Bug Fixes
-
-* **development-site:** update styling ([#416](https://github.com/Microsoft/fast-dna/issues/416)) ([97ac11a](https://github.com/Microsoft/fast-dna/commit/97ac11a))
-
-
-### Features
-
-* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
-
-
-
-
-<a name="1.4.0"></a>
-# [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
-
-
-### Bug Fixes
+### Bug fixes
 
 * **development-site:** update styling ([#416](https://github.com/Microsoft/fast-dna/issues/416)) ([97ac11a](https://github.com/Microsoft/fast-dna/commit/97ac11a))
 
@@ -345,19 +329,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.3.0"></a>
-# [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
+
+## [1.4.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.4.0) (2018-05-14)
+
+
+### Bug fixes
+
+* **development-site:** update styling ([#416](https://github.com/Microsoft/fast-dna/issues/416)) ([97ac11a](https://github.com/Microsoft/fast-dna/commit/97ac11a))
+
+
+### Features
+
+* **form generator:** updates styles found in configuration pane ([#420](https://github.com/Microsoft/fast-dna/issues/420)) ([919121b](https://github.com/Microsoft/fast-dna/commit/919121b))
+
+
+
+
+
+## [1.3.0](https://github.com/Microsoft/fast-dna/compare/v1.2.0...v1.3.0) (2018-05-11)
 
 
 
 
 **Note:** Version bump only for package @microsoft/fast-components-react-msft
 
-<a name="1.2.0"></a>
-# 1.2.0 (2018-05-10)
+
+## 1.2.0 (2018-05-10)
 
 
-### Bug Fixes
+### Bug fixes
 
 * **typography:** fixes an issue where typography was not being exported ([#405](https://github.com/Microsoft/fast-dna/issues/405)) ([3079eab](https://github.com/Microsoft/fast-dna/commit/3079eab))
 
@@ -369,11 +369,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-<a name="1.1.0"></a>
-# 1.1.0 (2018-05-09)
+
+## 1.1.0 (2018-05-09)
 
 
-### Bug Fixes
+### Bug fixes
 
 * ensure app build and tslint processes run prior in the build gate ([#132](https://github.com/Microsoft/fast-dna/issues/132)) ([e74f953](https://github.com/Microsoft/fast-dna/commit/e74f953))
 * fix tslint globbing issue and enforce whitespace in import/export statements ([#219](https://github.com/Microsoft/fast-dna/issues/219)) ([4637a90](https://github.com/Microsoft/fast-dna/commit/4637a90))
