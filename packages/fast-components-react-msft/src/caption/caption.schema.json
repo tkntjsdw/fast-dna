@@ -6,7 +6,7 @@
     "id": "caption",
     "properties": {
         "tag": {
-            "title": "HTML tag",
+            "title": "HTML element",
             "type": "string",
             "enum": [
                 "p",

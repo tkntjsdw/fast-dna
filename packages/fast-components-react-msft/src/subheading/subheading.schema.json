@@ -6,7 +6,7 @@
     "id": "Subheading",
     "properties": {
         "tag": {
-            "title": "HTML Tag",
+            "title": "HTML element",
             "type": "string",
             "enum": [
                 "h1",

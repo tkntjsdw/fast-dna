@@ -10,7 +10,7 @@
             "type": "string"
         },
         "tag": {
-            "title": "HTML Tag",
+            "title": "HTML element",
             "type": "string"
         }
     },
