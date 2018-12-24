@@ -6,7 +6,7 @@
     "id": "/components/subheading",
     "properties": {
         "tag": {
-            "title": "The HTML tag that the Subheading should use",
+            "title": "The HTML element that the Subheading should use",
             "type": "string",
             "enum": [
                 "h1",

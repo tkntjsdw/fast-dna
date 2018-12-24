@@ -104,7 +104,7 @@
                                 "id": "/components/heading",
                                 "properties": {
                                     "tag": {
-                                        "title": "The HTML tag that the Heading should use",
+                                        "title": "The HTML element that the Heading should use",
                                         "type": "string",
                                         "enum": [
                                             "h1",
@@ -297,7 +297,7 @@
                                 "id": "/components/heading",
                                 "properties": {
                                     "tag": {
-                                        "title": "The HTML tag that the Heading should use",
+                                        "title": "The HTML element that the Heading should use",
                                         "type": "string",
                                         "enum": [
                                             "h1",
@@ -490,7 +490,7 @@
                                 "id": "/components/heading",
                                 "properties": {
                                     "tag": {
-                                        "title": "The HTML tag that the Heading should use",
+                                        "title": "The HTML element that the Heading should use",
                                         "type": "string",
                                         "enum": [
                                             "h1",
