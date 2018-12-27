@@ -16,7 +16,7 @@ The development, release, and work management processes must reflect this princi
 
 ### Owners
 
-*Owners* have admin access and are responsible for the management, maintenance, and operations of repositories.
+*Owners* have admin access and are responsible for the management, maintenance, and operations of the FAST-DNA repository.
 
 ### Steering committee
 
