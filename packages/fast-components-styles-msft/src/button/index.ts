@@ -28,6 +28,7 @@ import Chroma from "chroma-js";
 import { density } from "../utilities/density";
 import { defaultHeight, maxHeight, minHeight } from "../utilities/height";
 import outlinePattern from "../patterns/outline";
+import { focus } from "../utilities/focus";
 
 function applyTransparentBackplateStyles(
     designSystem: DesignSystem
@@ -209,11 +210,13 @@ const styles: ComponentStyles<ButtonClassNameContract, DesignSystem> = (
             "&:focus": {
                 outline: "none",
             },
-            [`&${focusVisible()}`]: {
-                outline: "none",
+            ...focus({
                 borderColor: secondaryFocusBorderColor,
                 boxShadow: secondaryFocusBoxShadow,
-            },
+            }),
+            ...focus(" $foobar", {
+                color: "red",
+            }),
             "&$button__disabled": {
                 cursor: "not-allowed",
                 backgroundColor: secondaryDisabledBackgroundColor,
