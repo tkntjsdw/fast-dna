@@ -1,0 +1,325 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@microsoft/fast-data-utilities-react</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">@microsoft/fast-data-utilities-react</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1> @microsoft/fast-data-utilities-react</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<h1 id="fast-react-data-utilities">FAST React data utilities</h1>
+				<p>React data utilities are used to map data to components and perform other actions that may be necessary to pass data to other FAST-DNA libraries for manipulation, data validation, or storage. It relies on the creation of relevant JSON schemas for components, JSON schemas for the purposes of React use additional keyword of <code>reactProperties</code> for React children with the &quot;type&quot; of &quot;children&quot;.</p>
+				<h2 id="installation">Installation</h2>
+				<p><code>npm i --save @microsoft/fast-data-utilities-react</code></p>
+				<h2 id="usage">Usage</h2>
+				<h3 id="mapdatatocomponent"><code>mapDataToComponent</code></h3>
+				<p>The <code>mapDataToComponent</code> function can be used to map data to a React component. It uses JSON Schema, IDs, as well as data to create components from plain data.</p>
+				<p>An example of mapping data to a component from the <code>@microsoft/fast-data-utilities-react</code> package:</p>
+				<pre><code class="language-jsx"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">"react-dom"</span>;
+<span class="hljs-keyword">import</span> { Dialog } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> dialogSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-base/dist/dialog/dialog.schema.json"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> headingSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft/dist/heading/heading.schema.json"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> paragraphSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft/dist/paragraph/paragraph.schema.json"</span>;
+<span class="hljs-keyword">import</span> { mapDataToComponent } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+
+<span class="hljs-keyword">const</span> data = {
+    <span class="hljs-attr">visible</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">children</span>: [
+        {
+            <span class="hljs-attr">id</span>: headingSchema.id,
+            <span class="hljs-attr">props</span>: {
+                <span class="hljs-attr">children</span>: <span class="hljs-string">"Heading 1"</span>
+            }
+        },
+        {
+            <span class="hljs-attr">id</span>: paragraphSchema.id,
+            <span class="hljs-attr">props</span>: {
+                <span class="hljs-attr">children</span>: <span class="hljs-string">"Lorem ipsum."</span>
+            }
+        }
+    ]
+};
+
+<span class="hljs-keyword">const</span> childOptions = [
+    { <span class="hljs-attr">component</span>: Heading, <span class="hljs-attr">schema</span>: headingSchema },
+    { <span class="hljs-attr">component</span>: Paragraph, <span class="hljs-attr">schema</span>: paragraphSchema },
+];
+
+<span class="hljs-keyword">const</span> root = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">"div"</span>);
+root.setAttribute(<span class="hljs-string">"id"</span>, <span class="hljs-string">"root"</span>);
+<span class="hljs-built_in">document</span>.body.appendChild(root);
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params"></span>) </span>{
+    ReactDOM.render(
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dialog</span> {<span class="hljs-attr">...mapDataToComponent</span>(<span class="hljs-attr">dialogSchema</span>, <span class="hljs-attr">data</span>, <span class="hljs-attr">childOptions</span>)} /&gt;</span>,
+        root
+    );
+}
+
+render();</span></code></pre>
+				<h4 id="plugins">Plugins</h4>
+				<p>As an optional argument to <code>mapDataToComponent</code>, plugins may be used. Plugins must be extended from the <code>Plugin</code> class export and provide a <code>resolver</code> method. In this way functional code can be mapped to a component.</p>
+				<p>React render prop plugin example:</p>
+				<pre><code class="language-jsx"><span class="hljs-keyword">import</span> { mapDataToComponent, Plugin } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyPlugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Plugin</span> </span>{
+    resolver(data, childOption) {
+        <span class="hljs-keyword">return</span> <span class="hljs-function">(<span class="hljs-params">className</span>) =&gt;</span> {
+            <span class="hljs-keyword">return</span> React.createElement(
+                childOption.component,
+                <span class="hljs-built_in">Object</span>.assign({}, data.props, { className })
+            );
+        };
+    }
+}</code></pre>
+				<p>Schema example for the React render prop plugin example:</p>
+				<pre><code class="language-json">{
+    <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"http://json-schema.org/schema#"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Component with custom properties"</span>,
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"object"</span>,
+    <span class="hljs-attr">"id"</span>: <span class="hljs-string">"component-with-react-render-prop"</span>,
+    <span class="hljs-attr">"reactProperties"</span>: {
+        <span class="hljs-attr">"children"</span>: {
+            <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Children"</span>,
+            <span class="hljs-attr">"type"</span>: <span class="hljs-string">"children"</span>,
+            <span class="hljs-attr">"pluginId"</span>: <span class="hljs-string">"my-plugin"</span>
+        }
+    }
+}</code></pre>
+				<pre><code class="language-jsx"><span class="hljs-comment">/**
+ * The plugins take a configuration that includes a string or an array of strings
+ * mapping them to schema properties which also have a `pluginId`
+ */</span>
+<span class="hljs-keyword">const</span> plugins = [
+    <span class="hljs-keyword">new</span> MyPlugin({
+        <span class="hljs-attr">id</span>: <span class="hljs-string">"my-plugin"</span>
+    })
+];
+
+mapDataToComponent(schema, data, childOptions, plugins);</code></pre>
+				<h3 id="getchildoptionbyschemaid"><code>getChildOptionBySchemaId</code></h3>
+				<p>The <code>getChildOptionBySchemaId</code> accepts a list of child options and returns the one that matches the schema ID.</p>
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { getChildOptionBySchemaId } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> headingSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft/dist/heading/heading.schema.json"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> paragraphSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft/dist/paragraph/paragraph.schema.json"</span>;
+
+<span class="hljs-keyword">const</span> childOptions = [
+    { <span class="hljs-attr">component</span>: Heading, <span class="hljs-attr">schema</span>: headingSchema },
+    { <span class="hljs-attr">component</span>: Paragraph, <span class="hljs-attr">schema</span>: paragraphSchema },
+];
+
+<span class="hljs-keyword">const</span> headingChildOption = getChildOptionBySchemaId(headingSchema.id, childOptions); <span class="hljs-comment">// should be { component: Heading, schema: headingSchema }</span></code></pre>
+				<h3 id="getdatalocationsofchildren"><code>getDataLocationsOfChildren</code></h3>
+				<p>The <code>getDataLocationsOfChildren</code> returns any data locations of react children. This assumes that the </p>
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { getDataLocationsOfChildren } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> headingSchema <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-components-react-msft/dist/heading/heading.schema.json"</span>;
+
+<span class="hljs-keyword">const</span> headingData = {
+    <span class="hljs-attr">children</span>: <span class="hljs-string">"Hello world"</span>
+};
+
+<span class="hljs-keyword">const</span> dataLocationsOfChildren = getDataLocationsOfChildren(headingSchema, headingData, []); <span class="hljs-comment">// should be ["children"]</span></code></pre>
+				<h3 id="getpartialdata"><code>getPartialData</code></h3>
+				<p>The <code>getPartialData</code> function returns partial data based on a location path using the <code>lodash</code> path syntax.</p>
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { getPartialData } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+
+<span class="hljs-keyword">const</span> data = {
+    <span class="hljs-attr">foo</span>: {
+        <span class="hljs-attr">bar</span>: [
+            {
+                <span class="hljs-attr">bat</span>: <span class="hljs-string">"Hello world"</span>
+            }
+        ]
+    }
+}
+
+<span class="hljs-keyword">const</span> location = <span class="hljs-string">"foo.bar.0"</span>;
+
+<span class="hljs-keyword">const</span> partialData = getPartialData(location, data); <span class="hljs-comment">// should be { bat: "Hello world" }</span></code></pre>
+				<h3 id="mapschemalocationfromdatalocation"><code>mapSchemaLocationFromDataLocation</code></h3>
+				<p>The <code>mapSchemaLocationFromDataLocation</code> takes a <code>lodash</code> path to data, the data and the corresponding schema to determine the schemas path to that data.</p>
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { mapSchemaLocationFromDataLocation } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+
+<span class="hljs-keyword">const</span> dataLocation = <span class="hljs-string">"children"</span>;
+<span class="hljs-keyword">const</span> data = {
+    <span class="hljs-attr">children</span>: <span class="hljs-string">"Hello world"</span>
+};
+<span class="hljs-keyword">const</span> schema = {
+    <span class="hljs-attr">type</span>: <span class="hljs-string">"object"</span>,
+    <span class="hljs-attr">reactProperties</span>: {
+        <span class="hljs-attr">children</span>: {
+            <span class="hljs-attr">type</span>: <span class="hljs-string">"children"</span>
+        }
+    }
+}
+
+<span class="hljs-keyword">const</span> schemaLocation = mapSchemaLocationFromDataLocation(dataLocation, data, schema); <span class="hljs-comment">// should be "reactProperties.children"</span></code></pre>
+				<h3 id="normalizedatalocation"><code>normalizeDataLocation</code></h3>
+				<p>The <code>normalizeDataLocation</code> converts all property locations to <code>lodash</code> path dot notation and all array item references to bracket notation</p>
+				<pre><code class="language-js"><span class="hljs-keyword">import</span> { normalizeDataLocation } <span class="hljs-keyword">from</span> <span class="hljs-string">"@microsoft/fast-data-utilities-react"</span>;
+
+<span class="hljs-keyword">const</span> dataLocation = <span class="hljs-string">"foo.bar[0].bat"</span>;
+<span class="hljs-keyword">const</span> data = {
+    <span class="hljs-attr">foo</span>: {
+        <span class="hljs-attr">bar</span>: [
+            {
+                <span class="hljs-attr">bat</span>: <span class="hljs-string">"Hello world"</span>
+            }
+        ]
+    }
+}
+<span class="hljs-keyword">const</span> normalizedDataLocation = normalizeDataLocation(dataLocation, data); <span class="hljs-comment">// should be "foo.bar.0.bat"</span></code></pre>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+					<li class="label tsd-is-external">
+						<span>Internals</span>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_index_.html">"index"</a>
+					</li>
+					<li class="label tsd-is-external">
+						<span>Externals</span>
+					</li>
+					<li class=" tsd-kind-external-module tsd-is-external">
+						<a href="modules/_plugin_.html">"plugin"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
