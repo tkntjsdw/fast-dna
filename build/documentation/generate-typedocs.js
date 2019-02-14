@@ -13,8 +13,8 @@ const destDir = path.join(rootDir, "www");
  */
 function execute() {
 
-    console.log("Generating API documentation using TypeDoc:/n");
-    // if (dryRun) console.log("In docs/en/packages/, this script would...");
+    console.log("Generating API documentation using TypeDoc:");
+    // todo: if (dryRun) console.log("In docs/en/packages/, this script would...");
 
     // Get resolved package names
     const packages = path.resolve(rootDir, srcDir);
@@ -27,7 +27,6 @@ function execute() {
             .split(path.sep)
             .pop();
 
-            
             // ignore packages that don't comform to same consistency standards
             // for one reason or another
             if( srcPath.includes("fast-animation") || srcPath.includes("fast-browser-extensions") || srcPath.includes("fast-development-site-react") || srcPath.includes("fast-permutator") || srcPath.includes("fast-tslint-rules"))
@@ -35,23 +34,14 @@ function execute() {
                 console.log(`${packageName} - skipped`); return;
             }
             // process.exit(1);
-
             createAPI(
                 packageName,
                 path.join(srcPath, '/tsconfig.json'), 
                 path.join(srcPath, '/dist/api'),
                 path.join(srcPath, '/src/index.ts')
             );
-        
-
-            // createDestReadme(srcPath);
-            // const srcDirPath = path.dirname(srcPath);
-            // const lastSrcDir = srcDirPath.split(path.sep).pop();
-            // sidebarEntries.push(`en/packages/${lastSrcDir}/index`);
         });
     });
-
-    Console.log("API documentation created");
 }
 execute();
 
@@ -64,7 +54,7 @@ execute();
  */
 function createAPI(packageName, config, output, file) {
     
-    Console.log(`${packageName} - processing`);
+    console.log(`${packageName} - processing`);
     
     // console.log(config);
     // console.log(output);
