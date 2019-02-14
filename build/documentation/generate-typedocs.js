@@ -50,6 +50,8 @@ function execute() {
             // sidebarEntries.push(`en/packages/${lastSrcDir}/index`);
         });
     });
+
+    Console.log("API documentation created");
 }
 execute();
 
@@ -61,6 +63,8 @@ execute();
  * @param {*} file 
  */
 function createAPI(packageName, config, output, file) {
+    
+    Console.log(`${packageName} - processing`);
     
     // console.log(config);
     // console.log(output);
@@ -79,10 +83,8 @@ function createAPI(packageName, config, output, file) {
            resolve(`${data}`.trim());
          });
         typedoc.stderr.on('data', (data) => {
-           reject(`${packageName} - fail - "${data}"`);
+           reject(`fail - "${data}"`);
         });
-   }).then(function(packageName) {
-       console.log(`${packageName} - pass`);
    });
    
 }
