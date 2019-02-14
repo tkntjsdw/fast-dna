@@ -13,7 +13,7 @@ const destDir = path.join(rootDir, "www");
  */
 function execute() {
 
-    console.log("Generating API documentation using TypeDoc:");
+    console.log("Generating API documentation using TypeDoc:/n");
     // if (dryRun) console.log("In docs/en/packages/, this script would...");
 
     // Get resolved package names
@@ -32,14 +32,14 @@ function execute() {
             // for one reason or another
             if( srcPath.includes("fast-animation") || srcPath.includes("fast-browser-extensions") || srcPath.includes("fast-development-site-react") || srcPath.includes("fast-permutator") || srcPath.includes("fast-tslint-rules"))
             {
-                console.log(`API Docs ("${packageName}") - skipped`); return;
+                console.log(`${packageName} - skipped`); return;
             }
             // process.exit(1);
 
             createAPI(
                 packageName,
                 path.join(srcPath, '/tsconfig.json'), 
-                path.join(srcPath, '/api'),
+                path.join(srcPath, '/dist/api'),
                 path.join(srcPath, '/src/index.ts')
             );
         
@@ -79,10 +79,10 @@ function createAPI(packageName, config, output, file) {
            resolve(`${data}`.trim());
          });
         typedoc.stderr.on('data', (data) => {
-           reject(`API Docs ("${packageName}") - fail - "${data}"`);
+           reject(`${packageName} - fail - "${data}"`);
         });
    }).then(function(packageName) {
-       console.log(`API Docs ("${packageName}") - pass`);
+       console.log(`${packageName} - pass`);
    });
    
 }
