@@ -37,7 +37,7 @@ function execute() {
             createAPI(
                 packageName,
                 path.join(srcPath, '/tsconfig.json'), 
-                path.join(srcPath, '/dist/api'),
+                path.join(srcPath, '/website/static/',packageName, '/api'),
                 path.join(srcPath, '/src/index.ts')
             );
         });
