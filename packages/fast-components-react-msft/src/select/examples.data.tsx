@@ -5,6 +5,7 @@ import selectOptionSchema from "../select-option/select-option.schema.json";
 import { Select, SelectProps } from "./index";
 import { SelectOptionProps } from "../select-option";
 import Documentation from "./.tmp/documentation";
+import { AxisPositioningMode } from "@microsoft/fast-components-react-base";
 
 function selectOptionPropFactory(id: string): SelectOptionProps {
     return {
