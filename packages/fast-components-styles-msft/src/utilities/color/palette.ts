@@ -4,7 +4,12 @@ import defaultDesignSystem, {
     DesignSystemResolver,
 } from "../../design-system";
 import { backgroundColor } from "../../utilities/design-system";
-import { accentPalette, neutralPalette } from "../design-system";
+import {
+    accentPalette,
+    accentPalette2,
+    neutralPalette,
+    neutralPalette2,
+} from "../design-system";
 import {
     colorMatches,
     contrast,
@@ -21,6 +26,8 @@ import { neutralForegroundDark, neutralForegroundLight } from "./neutral-foregro
 export enum PaletteType {
     neutral = "neutral",
     accent = "accent",
+    neutral2 = "neutral2",
+    accent2 = "accent2",
 }
 
 /**
@@ -35,6 +42,10 @@ export type Palette = Swatch[];
 export function palette(paletteType: PaletteType): DesignSystemResolver<Palette> {
     return (designSystem: DesignSystem | undefined): Palette => {
         switch (paletteType) {
+            case PaletteType.accent2:
+                return accentPalette2(designSystem);
+            case PaletteType.neutral2:
+                return neutralPalette2(designSystem);
             case PaletteType.accent:
                 return accentPalette(designSystem);
             case PaletteType.neutral:

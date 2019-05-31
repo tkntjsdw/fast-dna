@@ -1,19 +1,15 @@
 import { DesignSystem } from "../../design-system";
 import { Palette, palette, PaletteType } from "./palette";
-import { accent } from "./color-constants";
 import { findClosestSwatchIndex, isDarkMode } from "./palette";
 import { contrast, Swatch, SwatchResolver } from "./common";
 import { clamp, inRange } from "lodash-es";
+import { accentBaseColor } from "../design-system";
 
 /**
- * Returns a swatch from the middle of the accent palette
+ * Returns the accent color swatch.
  */
 export const accentSwatch: SwatchResolver = (designSystem: DesignSystem): Swatch => {
-    const accentPalette: Palette | null = palette(PaletteType.accent)(designSystem);
-
-    return accentPalette === null
-        ? accent
-        : accentPalette[Math.floor(accentPalette.length / 2)];
+    return accentBaseColor(designSystem);
 };
 
 /**

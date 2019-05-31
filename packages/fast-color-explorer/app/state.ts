@@ -1,9 +1,11 @@
 import { Action, createStore } from "redux";
 import { ColorsDesignSystem, colorsDesignSystem } from "./design-system";
 import { ColorRGBA64 } from "@microsoft/fast-colors";
-import { merge } from "lodash-es";
-import { Color } from "csstype";
-import { createColorPalette } from "@microsoft/fast-components-styles-msft";
+import {
+    createColorPalette,
+    createColorPalette2,
+} from "@microsoft/fast-components-styles-msft";
+import { Swatch } from "@microsoft/fast-components-styles-msft/dist/utilities/color/common";
 
 export enum ComponentTypes {
     backplate = "backplate",
@@ -28,6 +30,10 @@ export interface AppState {
      * The component type being displayed
      */
     componentType: ComponentTypes;
+
+    neutralBaseColor: Swatch;
+
+    accentBaseColor: Swatch;
 }
 
 export interface Action {
@@ -40,15 +46,23 @@ export interface Action {
 function setPalette(
     palette: "accentPalette" | "neutralPalette"
 ): (state: AppState, value: ColorRGBA64) => AppState {
+    const palette2: string = palette + "2";
+    const baseColor: string =
+        palette === "accentPalette" ? "accentBaseColor" : "neutralBaseColor";
     return (state: AppState, value: ColorRGBA64): AppState => {
         const designSystem: ColorsDesignSystem = {
             ...state.designSystem,
-            [palette]: createColorPalette(value),
+            [palette]: createColorPalette2(value),
+            [palette2]: createColorPalette(value),
         };
+        if (palette === "accentPalette") {
+            designSystem.accentBaseColor = value.toStringHexRGB();
+        }
 
         return {
             ...state,
             designSystem,
+            [baseColor]: value.toStringHexRGB(),
         };
     };
 }

@@ -1,9 +1,5 @@
 import { accentSwatch } from "./accent";
-import designSystemDefaults, {
-    DesignSystem,
-    ensureDesignSystemDefaults,
-} from "../../design-system";
-import { accentPaletteConfig } from "./color-constants";
+import designSystemDefaults, { DesignSystem } from "../../design-system";
 import { parseColorHexRGB } from "@microsoft/fast-colors";
 
 describe("accentSwatch", (): void => {

@@ -1,8 +1,17 @@
-import { labToRGB, lchToRGB, rgbToLAB, rgbToLCH } from "./color-converters";
+import {
+    hslToRGB,
+    labToRGB,
+    lchToRGB,
+    rgbToHSL,
+    rgbToLAB,
+    rgbToLCH,
+    rgbToLuminance,
+} from "./color-converters";
 import { ColorLAB } from "./color-lab";
 import { ColorLCH } from "./color-lch";
 import { ColorRGBA64 } from "./color-rgba-64";
 import { clamp } from "./math-utilities";
+import { ColorHSL } from "./color-hsl";
 
 // The alpha channel of the input is ignored
 export function saturateViaLCH(
@@ -25,6 +34,11 @@ export function desaturateViaLCH(
     saturationConstant: number = 18
 ): ColorRGBA64 {
     return saturateViaLCH(input, -1 * saturation, saturationConstant);
+}
+
+export function desaturateViaLuminance(input: ColorRGBA64): ColorRGBA64 {
+    const lum: number = rgbToLuminance(input);
+    return new ColorRGBA64(lum, lum, lum, 1);
 }
 
 // The alpha channel of the input is ignored
@@ -63,6 +77,13 @@ export function blendBurn(bottom: ColorRGBA64, top: ColorRGBA64): ColorRGBA64 {
         blendBurnChannel(bottom.b, top.b),
         1
     );
+}
+
+// The alpha channel of the input is ignored
+export function blendColor(bottom: ColorRGBA64, top: ColorRGBA64): ColorRGBA64 {
+    const lumB: number = rgbToLuminance(bottom);
+    const hslTop: ColorHSL = rgbToHSL(top);
+    return hslToRGB(new ColorHSL(hslTop.h, hslTop.s, lumB));
 }
 
 export function blendDarkenChannel(bottom: number, top: number): number {
@@ -161,6 +182,7 @@ export function blendScreen(bottom: ColorRGBA64, top: ColorRGBA64): ColorRGBA64 
 
 export enum ColorBlendMode {
     Burn,
+    Color,
     Darken,
     Dodge,
     Lighten,
@@ -178,6 +200,8 @@ export function blend(
     switch (mode) {
         case ColorBlendMode.Burn:
             return blendBurn(bottom, top);
+        case ColorBlendMode.Color:
+            return blendColor(bottom, top);
         case ColorBlendMode.Darken:
             return blendDarken(bottom, top);
         case ColorBlendMode.Dodge:

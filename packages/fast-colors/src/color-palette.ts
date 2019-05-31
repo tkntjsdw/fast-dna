@@ -46,7 +46,7 @@ export class ColorPalette {
         baseScalePosition: 0.5,
     };
     public static readonly greyscalePaletteConfig: ColorPaletteConfig = {
-        baseColor: parseColorHexRGB("#808080"),
+        baseColor: parseColorHexRGB("#212121"),
         steps: 11,
         interpolationMode: ColorInterpolationSpace.RGB,
         scaleColorLight: new ColorRGBA64(1, 1, 1, 1),
@@ -60,7 +60,7 @@ export class ColorPalette {
         overlayDark: 0,
         multiplyLight: 0,
         multiplyDark: 0,
-        baseScalePosition: 0.5,
+        baseScalePosition: 0.95,
     };
 
     constructor(config: ColorPaletteConfig) {

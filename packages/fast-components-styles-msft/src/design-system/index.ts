@@ -1,6 +1,12 @@
 import { Direction } from "@microsoft/fast-web-utilities";
 import { white } from "../utilities/color/color-constants";
-import { ColorPalette, ColorRGBA64, parseColorHexRGB } from "@microsoft/fast-colors";
+import {
+    ColorPalette,
+    ColorPalette2,
+    ColorRGBA64,
+    PaletteItemData,
+    parseColorHexRGB,
+} from "@microsoft/fast-colors";
 import { Palette } from "../utilities/color/palette";
 import { withDefaults } from "@microsoft/fast-jss-utilities";
 import { defaultFontWeights, FontWeight } from "../utilities/fonts";
@@ -17,6 +23,11 @@ export interface DesignSystem {
     backgroundColor: string;
 
     /**
+     * The accent color, which the accentPalette is based on
+     */
+    accentBaseColor: string;
+
+    /**
      * Configuration object to derive the neutral palette. Expects a ColorPaletteConfig from @microsoft/fast-colors
      */
     neutralPalette: Palette;
@@ -25,6 +36,12 @@ export interface DesignSystem {
      * Configuration object to derive the accent palette. Expects a ColorPaletteConfig from @microsoft/fast-colors
      */
     accentPalette: Palette;
+
+    /********
+     * Temporary for testing different palette algorithms.
+     ********/
+    neutralPalette2: Palette;
+    accentPalette2: Palette;
 
     /**
      * A number between 0 and 100 that represents the contrast scale value.
@@ -154,8 +171,17 @@ export function createColorPalette(baseColor: ColorRGBA64): Palette {
     }).palette.map((color: ColorRGBA64) => color.toStringHexRGB().toUpperCase());
 }
 
+export function createColorPalette2(baseColor: ColorRGBA64): Palette {
+    return new ColorPalette2({
+        baseColor,
+    }).palette.map((paletteItem: PaletteItemData) =>
+        paletteItem.color.toStringHexRGB().toUpperCase()
+    );
+}
+
 const designSystemDefaults: DesignSystem = {
     backgroundColor: white,
+    accentBaseColor: "#0078D4",
     contrast: 0,
     density: 0,
     designUnit: 4,
@@ -167,8 +193,10 @@ const designSystemDefaults: DesignSystem = {
     fontWeight: defaultFontWeights,
     disabledOpacity: 0.3,
     outlineWidth: 1,
-    neutralPalette: createColorPalette(new ColorRGBA64(0.5, 0.5, 0.5, 1)),
-    accentPalette: createColorPalette(parseColorHexRGB("#0078D4")),
+    neutralPalette: createColorPalette2(new ColorRGBA64(0.5, 0.5, 0.5, 1)),
+    accentPalette: createColorPalette2(parseColorHexRGB("#0078D4")),
+    neutralPalette2: createColorPalette(new ColorRGBA64(0.5, 0.5, 0.5, 1)),
+    accentPalette2: createColorPalette(parseColorHexRGB("#0078D4")),
 
     /**
      * Recipe Deltas
