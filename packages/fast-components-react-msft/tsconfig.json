@@ -6,5 +6,12 @@
     },
     "files": [
         "typings.d.ts"
+    ],
+    "include": [
+        "./**/*.ts",
+        "./**/*.tsx"
+    ],
+    "exclude": [
+        "./**/examples.data.tsx"
     ]
 }
