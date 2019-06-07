@@ -218,7 +218,8 @@ const NavigationTreeItem: React.RefForwardingComponent<
 
 export { NavigationTreeItem };
 
-export const DraggableNavigationTreeItem: typeof NavigationTreeItem = DropTarget(
+/* tslint:disable-next-line */
+export const DraggableNavigationTreeItem = DropTarget(
     NavigationTreeItemDragID,
     navigationTreeItemDropSource,
     navigationTreeItemDropTargetCollect
